@@ -1,0 +1,339 @@
+$date
+	Mon Jul 20 10:10:15 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 16 ! out [15:0] $end
+$var reg 1 " clk $end
+$var reg 4 # i [3:0] $end
+$var reg 4 $ in [3:0] $end
+$var reg 1 % rst $end
+$scope module decoder $end
+$var wire 1 & w $end
+$var wire 1 ' x $end
+$var wire 1 ( y $end
+$var wire 1 ) z $end
+$var wire 4 * q [3:0] $end
+$var wire 4 + p [3:0] $end
+$var wire 16 , out [15:0] $end
+$scope begin row[0] $end
+$var parameter 2 - i $end
+$scope begin col[0] $end
+$var parameter 2 . j $end
+$upscope $end
+$scope begin col[1] $end
+$var parameter 2 / j $end
+$upscope $end
+$scope begin col[2] $end
+$var parameter 3 0 j $end
+$upscope $end
+$scope begin col[3] $end
+$var parameter 3 1 j $end
+$upscope $end
+$upscope $end
+$scope begin row[1] $end
+$var parameter 2 2 i $end
+$scope begin col[0] $end
+$var parameter 2 3 j $end
+$upscope $end
+$scope begin col[1] $end
+$var parameter 2 4 j $end
+$upscope $end
+$scope begin col[2] $end
+$var parameter 3 5 j $end
+$upscope $end
+$scope begin col[3] $end
+$var parameter 3 6 j $end
+$upscope $end
+$upscope $end
+$scope begin row[2] $end
+$var parameter 3 7 i $end
+$scope begin col[0] $end
+$var parameter 2 8 j $end
+$upscope $end
+$scope begin col[1] $end
+$var parameter 2 9 j $end
+$upscope $end
+$scope begin col[2] $end
+$var parameter 3 : j $end
+$upscope $end
+$scope begin col[3] $end
+$var parameter 3 ; j $end
+$upscope $end
+$upscope $end
+$scope begin row[3] $end
+$var parameter 3 < i $end
+$scope begin col[0] $end
+$var parameter 2 = j $end
+$upscope $end
+$scope begin col[1] $end
+$var parameter 2 > j $end
+$upscope $end
+$scope begin col[2] $end
+$var parameter 3 ? j $end
+$upscope $end
+$scope begin col[3] $end
+$var parameter 3 @ j $end
+$upscope $end
+$upscope $end
+$scope module decoder $end
+$var wire 1 & a $end
+$var wire 1 ' b $end
+$var wire 4 A d [3:0] $end
+$upscope $end
+$scope module decoder2 $end
+$var wire 1 ( a $end
+$var wire 1 ) b $end
+$var wire 4 B d [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 @
+b10 ?
+b1 >
+b0 =
+b11 <
+b11 ;
+b10 :
+b1 9
+b0 8
+b10 7
+b11 6
+b10 5
+b1 4
+b0 3
+b1 2
+b11 1
+b10 0
+b1 /
+b0 .
+b0 -
+$end
+#0
+$dumpvars
+bx B
+bx A
+bx ,
+bx +
+bx *
+x)
+x(
+x'
+x&
+1%
+bx $
+bx #
+0"
+bx !
+$end
+#10
+b1 !
+b1 ,
+b1 +
+b1 A
+b1 *
+b1 B
+0&
+0'
+0(
+0)
+b0 $
+b0 #
+1"
+#20
+0"
+0%
+#30
+b1 #
+1"
+#40
+0"
+#50
+b10 !
+b10 ,
+b10 *
+b10 B
+1)
+b10 #
+b1 $
+1"
+#60
+0"
+#70
+b100 !
+b100 ,
+b100 *
+b100 B
+1(
+0)
+b11 #
+b10 $
+1"
+#80
+0"
+#90
+b1000 !
+b1000 ,
+b1000 *
+b1000 B
+1)
+b100 #
+b11 $
+1"
+#100
+0"
+#110
+b10000 !
+b10000 ,
+b10 +
+b10 A
+b1 *
+b1 B
+1'
+0(
+0)
+b101 #
+b100 $
+1"
+#120
+0"
+#130
+b100000 !
+b100000 ,
+b10 *
+b10 B
+1)
+b110 #
+b101 $
+1"
+#140
+0"
+#150
+b1000000 !
+b1000000 ,
+b100 *
+b100 B
+1(
+0)
+b111 #
+b110 $
+1"
+#160
+0"
+#170
+b10000000 !
+b10000000 ,
+b1000 *
+b1000 B
+1)
+b1000 #
+b111 $
+1"
+#180
+0"
+#190
+b100000000 !
+b100000000 ,
+b100 +
+b100 A
+b1 *
+b1 B
+1&
+0'
+0(
+0)
+b1001 #
+b1000 $
+1"
+#200
+0"
+#210
+b1000000000 !
+b1000000000 ,
+b10 *
+b10 B
+1)
+b1010 #
+b1001 $
+1"
+#220
+0"
+#230
+b10000000000 !
+b10000000000 ,
+b100 *
+b100 B
+1(
+0)
+b1011 #
+b1010 $
+1"
+#240
+0"
+#250
+b100000000000 !
+b100000000000 ,
+b1000 *
+b1000 B
+1)
+b1100 #
+b1011 $
+1"
+#260
+0"
+#270
+b1000000000000 !
+b1000000000000 ,
+b1000 +
+b1000 A
+b1 *
+b1 B
+1'
+0(
+0)
+b1101 #
+b1100 $
+1"
+#280
+0"
+#290
+b10000000000000 !
+b10000000000000 ,
+b10 *
+b10 B
+1)
+b1110 #
+b1101 $
+1"
+#300
+0"
+#310
+b100000000000000 !
+b100000000000000 ,
+b100 *
+b100 B
+1(
+0)
+b1111 #
+b1110 $
+1"
+#320
+0"
+#330
+b1000000000000000 !
+b1000000000000000 ,
+b1000 *
+b1000 B
+1)
+b1111 $
+1"
+#340
+0"
